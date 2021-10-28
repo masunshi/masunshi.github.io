@@ -1,7 +1,7 @@
-import game, {handleUserAction} from "./gameState";
+import game, {handleUserAction} from "./gameState.js";
 
-import {TICK_RATE} from "./constants";
-import initButtons from "./buttons";
+import {TICK_RATE} from "./constants.js";
+import initButtons from "./buttons.js";
 
 async function init(){
   initButtons(handleUserAction);

@@ -1,6 +1,6 @@
-import { modFox, modScene, togglePoopBag, writeModal } from "./ui";
+import { modFox, modScene, togglePoopBag, writeModal } from "./ui.js";
 import { RAIN_CHANCE,SCENES,DAY_LENGTH,NIGHT_LENGTH,getNextDieTime,
-  getNextHungerTime,getNextPoopTime } from "./constants";
+  getNextHungerTime,getNextPoopTime } from "./constants.js";
 
 
 const gameState = {
