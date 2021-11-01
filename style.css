@@ -23,4 +23,7 @@ body {
   background-color: rgba(201, 76, 76, 0.3);
 }
 
-.game{list-style: none;}
+.game{
+  list-style: none;
+  margin: 5px 0;
+}
